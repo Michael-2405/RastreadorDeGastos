@@ -64,7 +64,7 @@ class ExpenseData extends ChangeNotifier {
   }
 
   // convertir la lista de gastos general a un resumen de gastos diarios
-  Map<String, double> calcularResumenDeGastosDiarios() {
+  Map<String, double> calcularResumenDiarioDeGastos() {
     Map<String, double> resumenDeGastosDiario = {
       // date (yyyymmdd) : cantidadTotalPorDia
     };

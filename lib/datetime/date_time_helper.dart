@@ -12,7 +12,7 @@ String convertirDateTimeACadena(DateTime dateTime) {
   // dia en el formato -> dd
   String day = dateTime.day.toString();
   if (day.length == 1) {
-    month = '0$day';
+    day = '0$day';
   }
 
   // formato final -> yyyymmdd

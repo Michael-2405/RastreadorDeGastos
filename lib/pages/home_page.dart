@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
               controller: nombreGastoControlador,
               decoration: const InputDecoration(hintText: 'Nombre del gasto'),
             ),
-            // cantidad del gasto
+
             TextField(
               controller: cantidadDeGastoEnPesoControlador,
               keyboardType: TextInputType.number,
